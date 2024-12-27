@@ -1,0 +1,62 @@
+{
+  "base_experience": 161,
+  "height": 13,
+  "id": 122,
+  "name": "mr-mime",
+  "order": 194,
+  "sprites": {
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/122.png",
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/122.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/122.png"
+  },
+  "stats": [
+    {
+      "base_stat": 40,
+      "effort": 0,
+      "stat": { "name": "hp", "url": "https://pokeapi.co/api/v2/stat/1/" }
+    },
+    {
+      "base_stat": 45,
+      "effort": 0,
+      "stat": { "name": "attack", "url": "https://pokeapi.co/api/v2/stat/2/" }
+    },
+    {
+      "base_stat": 65,
+      "effort": 0,
+      "stat": { "name": "defense", "url": "https://pokeapi.co/api/v2/stat/3/" }
+    },
+    {
+      "base_stat": 100,
+      "effort": 0,
+      "stat": {
+        "name": "special-attack",
+        "url": "https://pokeapi.co/api/v2/stat/4/"
+      }
+    },
+    {
+      "base_stat": 120,
+      "effort": 2,
+      "stat": {
+        "name": "special-defense",
+        "url": "https://pokeapi.co/api/v2/stat/5/"
+      }
+    },
+    {
+      "base_stat": 90,
+      "effort": 0,
+      "stat": { "name": "speed", "url": "https://pokeapi.co/api/v2/stat/6/" }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": { "name": "psychic", "url": "https://pokeapi.co/api/v2/type/14/" }
+    },
+    {
+      "slot": 2,
+      "type": { "name": "fairy", "url": "https://pokeapi.co/api/v2/type/18/" }
+    }
+  ],
+  "weight": 545
+}

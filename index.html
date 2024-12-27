@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ahmed's Pokemon Finder</title>
+  </head>
+  <body>
+    <main>
+      <h1>Pokemon Finder</h1>
+      <div class="container">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Enter Pokemon Name"
+          required
+        />
+        <button id="search-button">Search</button>
+        <div id="pokemon-info">
+          <p><strong>Name:</strong> <span id="pokemon-name"></span></p>
+          <p><strong>ID:</strong> <span id="pokemon-id"></span></p>
+          <p><strong>Weight:</strong> <span id="weight"></span></p>
+          <p><strong>Height:</strong> <span id="height"></span></p>
+          <div id="img-container"></div>
+          <p><strong>Types:</strong> <span id="types"></span></p>
+          <p><strong>HP:</strong> <span id="hp"></span></p>
+          <p><strong>Attack:</strong> <span id="attack"></span></p>
+          <p><strong>Defense:</strong> <span id="defense"></span></p>
+          <p>
+            <strong>Special Attack:</strong> <span id="special-attack"></span>
+          </p>
+          <p>
+            <strong>Special Defense:</strong> <span id="special-defense"></span>
+          </p>
+          <p><strong>Speed:</strong> <span id="speed"></span></p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
